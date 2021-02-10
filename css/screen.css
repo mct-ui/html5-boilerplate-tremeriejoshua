@@ -35,3 +35,9 @@ html {
     background: cadetblue;
     color: white;
 }
+
+body{
+    max-width: 42em;
+    /*ik ga dat niet vergeten het verwijst naar de root font-size van onze html element(nu nog 16px)en dus hoe breed is dat nu: 16*42-672px*/
+    margin: 0 auto;
+}
