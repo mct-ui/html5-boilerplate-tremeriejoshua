@@ -1,3 +1,37 @@
 body{
     background-color: khaki;
 }
+/*
+    Elements: Page
+    ---
+    Default markup for page level elements
+*/
+
+html {
+    
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 24px 24px 0;
+    background: chocolate;
+
+
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: cadetblue;
+    color: white;
+}
+
+::selection {
+    background: cadetblue;
+    color: white;
+}
